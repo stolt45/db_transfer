@@ -9,7 +9,7 @@ $ bundle exec heroku db:push --app app-name
 
 If you need a shared database on heroku:
 
-$ heroku addons:add shared_database --app app-name
+$ heroku addons:add shared-database --app app-name
 
 warning: running taps in this fassion will overwrite the database at DATABASE_URL on heroku.
 
